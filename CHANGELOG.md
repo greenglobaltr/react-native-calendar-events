@@ -48,7 +48,7 @@ In addition to bugfixes, this release introduces some minor breaking changes:
 
 ### Android
 
-- Package is now `com.calendarevents.RNCalendarEvents` [a39efe7](https://github.com/wmcmahan/react-native-calendar-events/commit/a39efe79c730c578abe8614986d63520005a8e59) by [@MoOx](https://github.com/MoOx)
+- Package is now `alt.calendarevents.RNCalendarEvents` [a39efe7](https://github.com/wmcmahan/react-native-calendar-events/commit/a39efe79c730c578abe8614986d63520005a8e59) by [@MoOx](https://github.com/MoOx)
 - Fixed `'boolean android.database.Cursor.moveToNext()' on a null object reference` error [e7c9680](https://github.com/wmcmahan/react-native-calendar-events/commit/e7c9680dd24a84229df234abf82277115d3f4f00) by [@MoOx](https://github.com/MoOx)
 - Fixed parsing allowed availability [#268](https://github.com/wmcmahan/react-native-calendar-events/pull/268) by [@saghul](https://github.com/saghul)
 - Added AndroidX support for react-native 0.60 [#263](https://github.com/wmcmahan/react-native-calendar-events/pull/263) by [@yfuks](https://github.com/yfuks)

@@ -1,4 +1,4 @@
-package com.calendarevents;
+package alt.calendarevents;
 
 import android.app.Activity;
 import android.content.ContentResolver;
@@ -111,7 +111,7 @@ public class RNCalendarEvents extends ReactContextBaseJavaModule implements Perm
         return writePermission == PackageManager.PERMISSION_GRANTED &&
                 readPermission == PackageManager.PERMISSION_GRANTED;
     }
-    
+
     private boolean shouldShowRequestPermissionRationale(boolean readOnly) {
         Activity currentActivity = getCurrentActivity();
 
@@ -814,7 +814,7 @@ public class RNCalendarEvents extends ReactContextBaseJavaModule implements Perm
         Cursor cursor = CalendarContract.Attendees.query(resolver, eventID, new String[] {
                 CalendarContract.Attendees._ID
         });
-        
+
         while (cursor.moveToNext()) {
             long attendeeId = cursor.getLong(0);
             Uri attendeeUri = ContentUris.withAppendedId(CalendarContract.Attendees.CONTENT_URI, attendeeId);
